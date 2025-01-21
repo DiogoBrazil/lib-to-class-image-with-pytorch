@@ -11,7 +11,7 @@ setup(
     description="A library for image classification using PyTorch.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/DiogoBrazil/lib-to-class-image-with-pytorch.git",
     packages=find_packages(),
     license="MIT",
     keywords=[
@@ -28,11 +28,11 @@ setup(
         "transfer-learning"
     ],
     install_requires=[
-        "torch>=1.10",
-        "torchvision>=0.11",
-        "torchmetrics>=0.6",
-        "tqdm>=4.0",
-        "Pillow>=7.0",
+        "torch",
+        "torchvision",
+        "torchmetrics",
+        "tqdm",
+        "Pillow",
     ],
     python_requires=">=3.9",
 )
