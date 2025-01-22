@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="TorchImageClass",
-    version="0.0.1",
+    name="torchimageclass",
+    version="0.0.2",
     author="Diogo Ribeiro",
     author_email="diogoifroads@gmail.com",
     description="A library for image classification using PyTorch.",

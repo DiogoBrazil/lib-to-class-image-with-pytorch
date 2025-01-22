@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: torchimageclass
+Version: 0.0.2
+Summary: A library for image classification using PyTorch.
+Home-page: https://github.com/DiogoBrazil/lib-to-class-image-with-pytorch.git
+Author: Diogo Ribeiro
+Author-email: diogoifroads@gmail.com
+License: MIT
+Keywords: pytorch,deep-learning,image-classification,machine-learning,computer-vision,classification,torch,TorchImageClass,neural-networks,cnn,transfer-learning
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
 # TorchImageClass
 
 **TorchImageClass** é uma biblioteca em Python que fornece um conjunto de ferramentas e utilitários para **classificação de imagens** usando [PyTorch](https://pytorch.org/). Ela visa facilitar o **treinamento**, **validação** e **inferência** de redes neurais voltadas a tarefas de classificação.
@@ -97,4 +111,6 @@ model, history = train_model(
 
 print("Final History:", history)
 print("Trained model:", model)
+
+
 

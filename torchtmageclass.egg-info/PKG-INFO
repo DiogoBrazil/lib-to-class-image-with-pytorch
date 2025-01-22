@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: torchtmageclass
+Version: 0.0.1
+Summary: A library for image classification using PyTorch.
+Home-page: https://github.com/DiogoBrazil/lib-to-class-image-with-pytorch.git
+Author: Diogo Ribeiro
+Author-email: diogoifroads@gmail.com
+License: MIT
+Keywords: pytorch,deep-learning,image-classification,machine-learning,computer-vision,classification,torch,TorchImageClass,neural-networks,cnn,transfer-learning
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
 # TorchImageClass
 
 **TorchImageClass** é uma biblioteca em Python que fornece um conjunto de ferramentas e utilitários para **classificação de imagens** usando [PyTorch](https://pytorch.org/). Ela visa facilitar o **treinamento**, **validação** e **inferência** de redes neurais voltadas a tarefas de classificação.
@@ -9,8 +23,6 @@
 - [Motivação](#motivação)
 - [Principais Recursos](#principais-recursos)
 - [Instalação](#instalação)
-- [Estrutura de Pastas do Dataset](#estrutura-de-pastas-do-dataset)
-- [Como usar](#como-usar)
 
 ---
 
@@ -50,36 +62,8 @@ Modelos de classificação de imagens são amplamente usados em aplicações de 
 Para instalar via [PyPI](https://pypi.org/):
 
 ```bash
-pip install torchimageclass
+pip install TorchImageClass
 ```
-
-## Estrutura de Pastas do Dataset
-
-Para que o torchimageclass funcione corretamente, é esperado que sua pasta principal (```base_dir```) tenha a seguinte organização:
-
-```bash
-data/
-├── train/
-│   ├── class_1/
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   └── ...
-│   └── class_2/
-│       ├── img1.jpg
-│       ├── img2.jpg
-│       └── ...
-└── test/
-    ├── class_1/
-    │   ├── imgX.jpg
-    │   └── ...
-    └── class_2/
-        ├── imgY.jpg
-        └── ...
-
-```
-
-O exemploo acima mostra apenas duas classes dentro das pastas ```class_1``` e ```class_2```, mas pode conter quantas classes forém necessárias para seu projeto.
-
 ## Como usar
 
 ```bash
@@ -97,4 +81,6 @@ model, history = train_model(
 
 print("Final History:", history)
 print("Trained model:", model)
+
+
 
